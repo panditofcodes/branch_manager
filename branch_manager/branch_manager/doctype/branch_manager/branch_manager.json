@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "branch_manager_section",
-  "action"
+  "action",
+  "select_app"
  ],
  "fields": [
   {
@@ -19,13 +20,18 @@
    "fieldtype": "Select",
    "label": "Action",
    "options": "\nUpdate App"
+  },
+  {
+   "fieldname": "select_app",
+   "fieldtype": "Select",
+   "label": "Select App"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-04-15 22:30:33.634059",
+ "modified": "2025-04-30 22:56:34.851693",
  "modified_by": "Administrator",
  "module": "Branch Manager",
  "name": "Branch Manager",
